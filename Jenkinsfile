@@ -9,7 +9,7 @@ pipeline {
                    sh "whoami"
                }
            },
-           stage ('Test) {
+           stage ('Test') {
             steps {
                 echo "Testing phase.."
                 sh "ls"
