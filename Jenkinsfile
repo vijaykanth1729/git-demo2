@@ -8,7 +8,7 @@ pipeline {
                    sh "date"
                    sh "whoami"
                }
-           },
+           }
            stage ('Test') {
             steps {
                 echo "Testing phase.."
